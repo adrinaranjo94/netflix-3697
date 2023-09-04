@@ -9,7 +9,9 @@
   </head>
   <body>
     <section class="header">
-      <video src="assets/video/vid.mp4" muted autoplay></video>
+      <div class="header__video">
+        <video src="assets/video/vid.mp4" muted autoplay></video>
+      </div>
       <div class="header__info">
         <div class="header__infoType">
           <img src="" alt="" />
@@ -19,10 +21,15 @@
           <h1>Welcome to Netflix</h1>
         </div>
         <div class="header__infoActions">
-          <button><img src="" alt="" />Play</button>
+          <button class="button__play"><img src="" alt="" />Play</button>
           <button><img src="" alt="" />More info</button>
         </div>
       </div>
     </section>
+    <section class="main">
+      <div class="main__section" id="mainSection"></div>
+    </section>
+    <script src="js/apiKey.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
